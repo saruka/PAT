@@ -25,8 +25,8 @@ int main(int argc, char const *argv[])
 		int temp = getint();
 		score[rank] += temp;
 	}
-	int pos = max_element(score + 1, score + n + 1) - score;
-	int sum = *max_element(score + 1, score + n + 1);
+	int pos = max_element(score + 1, score + maxn + 1) - score;
+	int sum = *max_element(score + 1, score + maxn + 1);
 	printf("%d %d\n", pos, sum);
 	return 0;
 }
