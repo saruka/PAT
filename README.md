@@ -1,5 +1,5 @@
 # PAT Basic Level
-To store my accepted codes in Programming Ability Test(PAT), Basic Level.
+This repository is to store my accepted codes in Programming Ability Test(PAT), Basic Level.
 
 All the problems are listed in the official online judge system of PAT, also all the codes can be submitted there. 
 
