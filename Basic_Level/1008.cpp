@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
 		link[i].rank = i;
 	}
 	link[1].pre = -1;
-	link[1].nxt	= link[2].rank;
+	link[1].nxt = link[2].rank;
 	link[n].pre = link[n - 1].rank;
 	link[n].nxt = -1;
 	for(int i = 2; i <= n - 1; i++)
